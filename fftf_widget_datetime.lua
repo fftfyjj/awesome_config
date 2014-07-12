@@ -12,6 +12,11 @@ fftf_widget_datetime.date:buttons(awful.util.table.join(
 				     awful.button({ }, 1, function () fftf_widget_datetime_show_detail() end)
 ))
 
+fftf_widget_datetime_group = wibox.layout.fixed.horizontal()
+fftf_widget_datetime_group:add(fftf_widget_datetime.date)
+fftf_widget_datetime_group:add(fftf_widget_datetime.time)
+
+
 function fftf_widget_datetime_show_detail()
    local tx = io.popen("cal -h"):read("*all")
    naughty.notify({ preset = naughty.config.presets.normal,

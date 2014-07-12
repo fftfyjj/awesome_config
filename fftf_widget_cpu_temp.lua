@@ -2,9 +2,13 @@ local wibox = require("wibox")
 local utils = require("fftf_utils")
 require("cpu_temp_icons")
 
-fftf_widget_cpu_temp = {}
+local fftf_widget_cpu_temp = {}
 fftf_widget_cpu_temp.icon = wibox.widget.imagebox()
 fftf_widget_cpu_temp.text = wibox.widget.textbox()
+
+fftf_widget_cpu_temp_group = wibox.layout.fixed.horizontal()
+fftf_widget_cpu_temp_group:add(fftf_widget_cpu_temp.icon)
+fftf_widget_cpu_temp_group:add(fftf_widget_cpu_temp.text)
 
 
 function fftf_cpu_temp_get()

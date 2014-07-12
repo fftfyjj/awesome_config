@@ -10,9 +10,9 @@ cpu_temp_icons_death = fftf_home .. "/.config/awesome/icons/cpu-temp/emblem-impo
 cpu_temp_icons_status_table = {
    {15, cpu_temp_icons_cool},
    -- {35, cpu_temp_icons_low},
-   {35, cpu_temp_icons_cool},
+   {35, cpu_temp_icons_low},
    -- {50, cpu_temp_icons_medium},
-   {55, cpu_temp_icons_low},
+   {56, cpu_temp_icons_medium},
    {75, cpu_temp_icons_full},
    {90, cpu_temp_icons_danger},
    {120, cpu_temp_icons_death}

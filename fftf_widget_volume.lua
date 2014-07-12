@@ -5,9 +5,14 @@ local wibox = require("wibox")
 local volume_icons = require("volume_icons")
 
 -- widget 界面
-fftf_widget_volume = {}
+local fftf_widget_volume = {}
 fftf_widget_volume.icon = wibox.widget.imagebox()
 fftf_widget_volume.text = wibox.widget.textbox()
+
+fftf_widget_volume_group = wibox.layout.fixed.horizontal()
+fftf_widget_volume_group:add(fftf_widget_volume.icon)
+fftf_widget_volume_group:add(fftf_widget_volume.text)
+
 -- fftf_widget_volume:set_image("/usr/share/icons/ubuntu-mono-dark/status/24/audio-volume-low-panel.svg")
 
 local last_key = ""

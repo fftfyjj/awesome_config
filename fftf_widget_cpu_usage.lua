@@ -90,6 +90,9 @@ fftf_widget_cpu_usage.icon:buttons(awful.util.table.join(
 				      awful.button({ }, 1, function () fftf_widget_cpu_usage_show_detail() end)
 ))
 fftf_widget_cpu_usage.text = wibox.widget.textbox()
+fftf_widget_cpu_usage_group = wibox.layout.fixed.horizontal()
+fftf_widget_cpu_usage_group:add(fftf_widget_cpu_usage.icon)
+fftf_widget_cpu_usage_group:add(fftf_widget_cpu_usage.text)
 
 function fftf_widget_cpu_usage_update()
    
