@@ -1,0 +1,6 @@
+Name=Emacs
+Exec=emacs
+Icon= /usr/share/icons/HighContrast/256x256/status/audio-volume-high.png
+# /home/pi/.config/awesome/icons/volumes/audio_volume_high.png
+# /usr/share/icons/hicolor/128x128/apps/emacs24.png
+Position=1

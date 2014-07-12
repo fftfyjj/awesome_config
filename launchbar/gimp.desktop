@@ -1,0 +1,4 @@
+Name=Gimp
+Exec=gimp
+Icon= /home/pi/.config/awesome/icons/apps/gimp.png
+Position=1

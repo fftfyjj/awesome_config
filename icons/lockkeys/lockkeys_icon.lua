@@ -1,0 +1,8 @@
+lockkeys_icons_caps = fftf_home .. "/.config/awesome/icons/lockkeys/capslock.png"
+lockkeys_icons_caps_r = fftf_home .. "/.config/awesome/icons/lockkeys/capslock_red.png"
+lockkeys_icons_num = fftf_home .. "/.config/awesome/icons/lockkeys/numlock.png"
+lockkeys_icons_num_r = fftf_home .. "/.config/awesome/icons/lockkeys/numlock_red.png"
+lockkeys_icons_scroll = fftf_home .. "/.config/awesome/icons/lockkeys/scrolllock.png"
+lockkeys_icons_scroll_r = fftf_home .. "/.config/awesome/icons/lockkeys/scrolllock_red.png"
+lockkeys_icons_shift = fftf_home .. "/.config/awesome/icons/lockkeys/shiftlock.png"
+lockkeys_icons_shift_r = fftf_home .. "/.config/awesome/icons/lockkeys/shiftlock_red.png"

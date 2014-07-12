@@ -1,0 +1,4 @@
+Name=Firefox
+Exec=firefox
+Icon= /home/pi/.config/awesome/icons/apps/firefox.png
+Position=1

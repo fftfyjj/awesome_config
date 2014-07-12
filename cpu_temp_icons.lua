@@ -1,0 +1,1 @@
+icons/cpu-temp/cpu_temp_icons.lua

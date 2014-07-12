@@ -1,0 +1,17 @@
+cpu_temp_icons_full = "/home/pi/.config/awesome/icons/cpu-temp/thermal_full_r.png"
+cpu_temp_icons_low = "/home/pi/.config/awesome/icons/cpu-temp/thermal_low_r.png"
+cpu_temp_icons_medium = "/home/pi/.config/awesome/icons/cpu-temp/thermal_medium_r.png"
+cpu_temp_icons_danger = "/home/pi/.config/awesome/icons/cpu-temp/thermal_weixian_r.png"
+cpu_temp_icons_cool = "/home/pi/.config/awesome/icons/cpu-temp/thermal_zero_r.png"
+cpu_temp_icons_death = "/home/pi/.config/awesome/icons/cpu-temp/emblem-important.svg"
+
+
+
+cpu_temp_icons_status_table = {
+   {15, cpu_temp_icons_cool},
+   {35, cpu_temp_icons_low},
+   {50, cpu_temp_icons_medium},
+   {75, cpu_temp_icons_full},
+   {90, cpu_temp_icons_danger},
+   {120, cpu_temp_icons_death}
+}

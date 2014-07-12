@@ -1,0 +1,4 @@
+Name=Emacs
+Exec=emacs
+Icon= /home/pi/.config/awesome/icons/apps/emacs.png
+Position=1

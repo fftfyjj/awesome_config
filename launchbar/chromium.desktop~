@@ -1,0 +1,12 @@
+Name=Chromium
+Exec=chromium-browser
+Icon=/usr/share/icons/ubuntu-mono-dark/status/24/battery-040-charging.svg
+
+
+
+#/usr/share/icons/HighContrast/48x48/status/battery-good.png
+#/usr/share/icons/gnome/48x48/status/battery-full-charging.png
+#/usr/share/icons/Humanity-Dark/status/48/gpm-battery-060-charging.svg
+# /usr/share/icons/Humanity-Dark/status/48/gpm-battery-000-charging.svg
+# Icon=/usr/share/icons/hicolor/256x256/apps/chromium-browser.png
+Position=1

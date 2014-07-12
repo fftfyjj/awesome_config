@@ -1,0 +1,4 @@
+Name=Chromium
+Exec=chromium-browser
+Icon=/home/pi/.config/awesome/icons/apps/chrome.png
+Position=2
